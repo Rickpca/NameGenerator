@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    background-color: #4e0191;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 700px;
+}
+
+.container h1{
+    color: #fff;
+}
+#btn{
+    margin: 20px 0;
+    width: 150px;
+    height: 40px;
+    background-color: #58c890;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color:#459c71;
+    cursor: pointer;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+#Nombre{
+    color: #646464;
+    padding: 5px 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.name{
+    color: #fff;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
